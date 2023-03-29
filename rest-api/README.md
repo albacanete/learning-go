@@ -2,13 +2,13 @@
 
 ## Install commands
 ### Build the app
-`mod go build -o bin/go-rest-api internal/main.go`
+`go build -o bin/go-rest-api internal/main.go`
 
 ### Run the app
-`mod go run internal/main.go`
+`go run internal/main.go`
 
 ### Generate Go code
-`mod go generate github.com/albacanete/learning-go/rest-api/internal github.com/albacanete/learning-go/rest-api/pkg/swagger`
+`go generate github.com/albacanete/learning-go/rest-api/internal github.com/albacanete/learning-go/rest-api/pkg/swagger`
 
 ### Validate swagger
 `swagger validate pkg/swagger/swagger.yml`
